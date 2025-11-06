@@ -25,24 +25,6 @@ DATA: Novembre 2025
 
 7. Vai su dettagli e Automatically allow access on the following sites "OFF"
 
-═══════════════════════════════════════════════════════════════
-📚  UTILIZZO
-═══════════════════════════════════════════════════════════════
-
-MODALITÀ CORSO COMPLETO:
-1. Accedi al corso
-2. Assicurati che nessuna lezione sia in corso, se così fosse aspetta che termini
-3. In alto a destra fai partire l'estensione
-3. Vedrai pop-up con lo stato di avanzamento
-4. Rilassati e lascia che faccia tutto da solo! 🏖️
-
-COSA SUCCEDE:
-- Apre automaticamente tutte le categorie
-- Riproduce ogni video in sequenza
-- Salta le lezioni già completate (100%)
-- Mostra pop-up simpatici ogni 20-30 secondi
-- Gestisce errori di connessione automaticamente
-
 
 ═══════════════════════════════════════════════════════════════
 
@@ -52,16 +34,6 @@ COSA SUCCEDE:
 - I video devono essere disponibili sulla piattaforma
 - L'estensione NON bypassa restrizioni della piattaforma
 
-═══════════════════════════════════════════════════════════════
-📂  CONTENUTO CARTELLA "nduja"
-═══════════════════════════════════════════════════════════════
-
-nduja/
-├── manifest.json              → Configurazione estensione
-├── autoplay_unified.js        → Script principale
-├── favicon-16x16.png          → Icona 16x16 (opzionale)
-├── android-icon-48x48.png     → Icona 48x48 (opzionale)
-└── android-icon-144x144.png   → Icona 128x128 (opzionale)
 
 ═══════════════════════════════════════════════════════════════
 🌶️  CREDITI
@@ -87,10 +59,4 @@ oppure consulta la documentazione inline nel codice.
 
 Uso personale. Non distribuire o modificare senza permesso.
 
-═══════════════════════════════════════════════════════════════
-🎉  BUONA FORTUNA CON LA LAUREA!
-═══════════════════════════════════════════════════════════════
-
-Ricorda: LP Nduja studia per te, ma tu devi superare gli esami! 😄
-
-Vai a curcati! 😴
+Va curcati! 😴
