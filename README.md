@@ -2,25 +2,9 @@
 🌶️  LP NDUJA - AUTOPLAY   🌶️
 ═══════════════════════════════════════════════════════════════
 
-VERSIONE: 1.0.2
+VERSIONE: 2.0
 AUTORE: LP Nduja
-DATA: Ottobre 2025
-
-═══════════════════════════════════════════════════════════════
-📖  DESCRIZIONE
-═══════════════════════════════════════════════════════════════
-
-LP Nduja è un'estensione Chrome che automatizza la visualizzazione
-dei video.
-
-FUNZIONALITÀ:
-✅ Riproduzione automatica di tutti i video del corso
-✅ Gestione automatica delle categorie e sottocategorie
-✅ Pop-up simpatici con proverbi calabresi
-✅ Notifiche di stato in tempo reale
-✅ Recupero automatico dopo errori di connessione
-✅ Auto-click su popup di errore
-✅ Shadow DOM per zero interferenze
+DATA: Novembre 2025
 
 ═══════════════════════════════════════════════════════════════
 🚀  INSTALLAZIONE
@@ -60,60 +44,6 @@ COSA SUCCEDE:
 - Gestisce errori di connessione automaticamente
 
 
-═══════════════════════════════════════════════════════════════
-⚙️  CONFIGURAZIONE AVANZATA (OPZIONALE)
-═══════════════════════════════════════════════════════════════
-
-Se vuoi modificare i parametri, apri "autoplay_unified.js"
-e cerca la sezione "CONFIG BASE":
-
-PLAYBACK_SPEED = 1.0         → Velocità video (1.0 = normale)
-DELAY_TENDINA = 8000-10000   → Attesa apertura categorie (ms)
-EXTRA_BUFFER = 35000-45000   → Buffer extra per completamento (ms)
-STEP_WAIT = 28000-32000      → Attesa tra controlli (ms)
-
-Pop-up ticker = 25000 ±5000  → Frequenza pop-up simpatici (ms)
-
-═══════════════════════════════════════════════════════════════
-🔧  RISOLUZIONE PROBLEMI
-═══════════════════════════════════════════════════════════════
-
-PROBLEMA: L'estensione non si carica
-SOLUZIONE: Verifica che la cartella contenga:
-  - manifest.json
-  - autoplay_unified.js
-  - favicon-16x16.png (opzionale)
-  - android-icon-48x48.png (opzionale)
-  - android-icon-144x144.png (opzionale)
-
-PROBLEMA: I video non partono
-SOLUZIONE: Assicurati di essere sulla pagina principale del corso
-           con tutte le categorie visibili.
-
-PROBLEMA: Pop-up troppo frequenti
-SOLUZIONE: Modifica il valore "startTicker(25000, 5000)" 
-           nel file autoplay_unified.js aumentando i numeri.
-
-PROBLEMA: Lo script si ferma dopo un errore
-SOLUZIONE: L'estensione dovrebbe ripartire automaticamente.
-           Se non succede, ricarica la pagina manualmente.
-
-═══════════════════════════════════════════════════════════════
-📝  LOG E DEBUG
-═══════════════════════════════════════════════════════════════
-
-Per vedere cosa sta facendo l'estensione:
-
-1. Premi F12 per aprire DevTools
-2. Vai su "Console"
-3. Vedrai messaggi con tag [SEQ]:
-   - "Trovate X macrocategorie"
-   - "[1/5] Nome lezione - 0%"
-   - "Video avviato a velocità normale"
-   - "COMPLETATA 100%"
-
-═══════════════════════════════════════════════════════════════
-⚠️  AVVERTENZE
 ═══════════════════════════════════════════════════════════════
 
 - Usa l'estensione responsabilmente
